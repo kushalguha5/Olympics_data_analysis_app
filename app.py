@@ -14,7 +14,7 @@ region_df = pd.read_csv('noc_regions.csv')
 df = preprocessor.preprocess(df,region_df)
 
 st.sidebar.title("Olympics Analysis Visualization Tool by Kushal Guha")
-st.sidebar.image('https://e7.pngegg.com/pngimages/1020/402/png-clipart-2024-summer-olympics-brand-circle-area-olympic-rings-olympics-logo-text-sport.png')
+st.sidebar.image('https://drive.google.com/file/d/1mie-q1xJ1QzGfQUUR-S-BNRCba82b2to/view?usp=drive_link')
 user_menu = st.sidebar.radio(
     'Select an Option',
     ('Medal Tally','Overall Analysis','Country-wise Analysis','Athlete-wise Analysis')
